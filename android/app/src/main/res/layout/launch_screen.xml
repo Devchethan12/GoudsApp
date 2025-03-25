@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/splash_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/screen"
+        android:scaleType="centerInside"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/splash_text"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:text="గౌడ, ఈడిగ, శెట్టిబలిజ, శ్రీశయన, యాత కుల సంఘీయులందరికీ ఎపిగేవా 32వ వార్షికోత్సవ శుభాకాంక్షలు. ఎల్లప్పుడూ మీ అభివృద్ధిని ఆకాంక్షిస్తూ - మీ సూరగాని రవిశంకర్, స్టేట్ ప్రెసిడెంట్."
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_below="@id/splash_image"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
